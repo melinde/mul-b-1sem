@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formular</title>
+</head>
+
+<body>
+  <form id="form1" action="#" method="post">
+    <div>
+      <label for="navn">Navn</label>
+      <input type="text" id="navn">
+    </div>
+    <br>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <br>
+    <div>
+      <label for="besked">Besked</label> <br>
+      <textarea name="besked" id="besked" cols="50" rows="5"></textarea>
+    </div>
+
+    <div>
+      <label for="medlemsskab">Jeg vil gerne have medlemsskabet</label>
+      <input type="checkbox" name="medlemsskab" value="Simpel" id="medlemsskab1">Simpel
+      <input type="checkbox" name="medlemsskab" value="Standard" id="medlemsskab2">Standard
+      <input type="checkbox" name="medlemsskab" value="Super" id="medlemsskab3" checked>Super
+    </div>
+    <div>
+      <select name="køn" id="køn">
+        <option value="Mand">Mand</option>
+        <option value="Kvinde">Kvinde</option>
+        <option value="Andet">Andet</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="alder">Alder</label> <br>
+      <input type="number" name="alder" id="alder">
+    </div>
+    <br>
+
+    <div>
+      <label for="fødselsdato">Fødselsdato</label>
+      <input type="date" name="fødselsdato" id="fødselsdato">
+    </div>
+    <div>
+      <input type="button" value="Send">
+      <button type="reset">Ryd</button>
+    </div>
+
+
+  </form>
+</body>
+
+</html>

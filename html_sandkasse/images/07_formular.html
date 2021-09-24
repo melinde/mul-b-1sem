@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formular </title>
+</head>
+
+<body>
+  <form id="form1" action="#">
+    <div>
+      <label for="navn">Navn</label>
+      <input type="text" id="navn">
+    </div>
+    <div>
+      <label for="navn">Email</label>
+      <input type="email" name="email" id="email" placeholder="Indtast email adresse">
+    </div>
+    <div>
+      <label for="message">Besked</label> <br>
+      <textarea name="message" id="message" cols="50" rows="5"></textarea>
+    </div>
+    <div>
+      <label for="køn">Køn</label>
+      <select name="køn" id="køn">
+        <option value="mand">Mand</option>
+        <option value="kvinde">Kvinde</option>
+        <option value="andet">Andet</option>
+      </select>
+    </div>
+    <div>
+      <label for="alder">Alder</label>
+      <input type="number" name="alder" id="alder">
+    </div>
+    <div>
+      <label for="fødselsdato">Fødselsdato</label> 
+      <input type="date" name="fødselsdato" id="fødselsdato">
+    </div>
+    <div>
+    <label for="medlemsskab">Medlemsskab</label>
+    <input type="checkbox" name="medlemsskab" id="medlemsskab" value="simpel">Simpel
+    <input type="checkbox" name="medlemsskab" id="medlemsskab1" value="standard" checked>Standard
+    <input type="checkbox" name="medlemsskab" id="medlemsskab2" value="super">Super
+  </div>
+  <div>
+    <input type="button" value="Send">
+  </div>
+  </form>
+</body>
+
+</html>
